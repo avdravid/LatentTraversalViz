@@ -1,7 +1,7 @@
 # nz1 = 100 is size of structual latent vector:
 # nz2 = 10 is size of class latent vector.
 
-#architecture based off https://arxiv.org/pdf/1610.09585
+# architecture based off https://arxiv.org/pdf/1610.09585
 class Generator(torch.nn.Module):
 
     def __init__(self):
