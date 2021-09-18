@@ -1,3 +1,5 @@
+# architecture based off https://arxiv.org/pdf/1610.09585
+
 class Discriminator(torch.nn.Module):
 
     def __init__(self):
